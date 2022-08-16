@@ -1,0 +1,125 @@
+body{
+    font-family: 'Baloo 2', cursive;
+}
+
+header{
+    background: #FFB6C1;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width:940px;
+    margin:0 auto;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+nav li{
+    display: inline;
+    margin-left:15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#8B008B;
+    text-decoration: underline;
+}
+
+nav a:active{
+ color:#DB7093;
+}
+
+.banner{
+    height: 460px;
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.principal{
+    padding: 3em 0;
+    width:100%;
+    margin: 0 auto;
+    background: #fff1f4;
+}
+
+.proposta{
+    padding: 3em 0;
+    background: linear-gradient(#fff1f4,#FFB6C1);
+}
+
+.texto{
+    text-align: center;
+}
+
+.conteudo-proposta{
+    width:640px;
+    margin:0 auto;
+}
+
+.lista-proposta{
+    width:40%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.imagem-proposta{
+    width:60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #FF69B4;
+}
+
+.imagem-proposta:hover{
+    opacity: 0.3;
+    box-shadow: 0 0 0 0 #FF69B4;
+}
+
+.itens{
+    line-height: 1.7em;
+}
+
+.itens:hover{
+    color:#8B008B;
+    cursor: pointer;
+}
+
+.itens::before{
+    content:"👕";
+}
+
+.area-video{
+    background: #FFB6C1;
+    padding: 1px;
+}
+
+.video{
+    width: 560px;
+    margin: 6em auto;
+}
+
+footer{
+    background: #FFB6C1;
+    text-align: center;
+}
